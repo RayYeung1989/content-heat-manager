@@ -195,20 +195,20 @@ python3 scripts/generate_daily_report.py
 
 ## 📦 OpenClaw Skill
 
-This project is also packaged as an OpenClaw skill. To install it for the **main OpenClaw agent** (not the dev workspace):
+This project is also packaged as an OpenClaw skill. To install:
 
 ```bash
-# Install to the main OpenClaw agent's skills directory
-cp content-heat-manager.skill ~/.openclaw/skills/
+# Install as OpenClaw skill
+cp content-heat-manager.skill ~/openclaw/workspace/skills/
 ```
 
-Then the main agent can use it in any session:
+Then use in any OpenClaw session:
 ```python
 from content_heat_manager import HeatManager
 manager = HeatManager()
 ```
 
-**Note**: This installs the skill to your main OpenClaw workspace (`~/.openclaw/skills/`), making it available to the primary agent for all tasks.
+**Note**: This installs the skill to the main agent's workspace (`~/openclaw/workspace/skills/`).
 
 ## 🤝 Contributing
 
