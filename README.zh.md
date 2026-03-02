@@ -195,18 +195,20 @@ python3 scripts/generate_daily_report.py
 
 ## 📦 OpenClaw Skill
 
-本项目也打包为 OpenClaw skill：
+本项目也打包为 OpenClaw skill。要安装到**主 OpenClaw agent**（而非开发工作区）：
 
 ```bash
-# 作为 OpenClaw skill 安装
+# 安装到主 OpenClaw agent 的 skills 目录
 cp content-heat-manager.skill ~/.openclaw/skills/
 ```
 
-然后在任何 OpenClaw 会话中使用：
+然后主 agent 可以在任何会话中使用：
 ```python
 from content_heat_manager import HeatManager
 manager = HeatManager()
 ```
+
+**注意**：这将 skill 安装到你的主 OpenClaw 工作区（`~/.openclaw/skills/`），使主 agent 在所有任务中都可以使用它。
 
 ## 🤝 贡献
 
