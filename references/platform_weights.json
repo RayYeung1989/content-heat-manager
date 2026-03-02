@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "GitHub": {
+      "type": "dynamic",
+      "formula": "min(10, 5 + stars / 1000)",
+      "description": "Based on GitHub stars"
+    },
+    "HackerNews": {
+      "type": "dynamic",
+      "formula": "min(10, 5 + score / 50)",
+      "description": "Based on HN score (upvotes)"
+    },
+    "Reddit": {
+      "type": "dynamic",
+      "formula": "min(10, 5 + upvotes / 100)",
+      "description": "Based on Reddit upvotes"
+    },
+    "ProductHunt": {
+      "type": "dynamic",
+      "formula": "min(10, 5 + votes / 50)",
+      "description": "Based on Product Hunt votes"
+    },
+    "TechCrunch": {
+      "type": "static",
+      "weight": 6.5,
+      "description": "Major tech media"
+    },
+    "The Verge": {
+      "type": "static",
+      "weight": 6.0,
+      "description": "Tech news outlet"
+    },
+    "36氪": {
+      "type": "static",
+      "weight": 6.0,
+      "description": "Chinese tech media"
+    },
+    "量子位": {
+      "type": "static",
+      "weight": 6.5,
+      "description": "Chinese AI-focused media"
+    },
+    "机器之心": {
+      "type": "static",
+      "weight": 7.0,
+      "description": "Chinese AI professional media"
+    },
+    "InfoQ": {
+      "type": "static",
+      "weight": 6.0,
+      "description": "Developer-focused media"
+    },
+    "掘金": {
+      "type": "static",
+      "weight": 5.5,
+      "description": "Chinese developer community"
+    },
+    "知乎": {
+      "type": "static",
+      "weight": 5.0,
+      "description": "Chinese Q&A platform"
+    },
+    "default": {
+      "type": "static",
+      "weight": 5.0,
+      "description": "Default for unknown sources"
+    }
+  }
+}

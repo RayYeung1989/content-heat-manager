@@ -1,0 +1,27 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ignore cache files
+*.json
+!references/*.json
+
+# Ignore IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore skill package
+*.skill
+
+# Ignore logs
+*.log

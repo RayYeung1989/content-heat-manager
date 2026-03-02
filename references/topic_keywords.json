@@ -1,0 +1,46 @@
+{
+  "ai_tech": {
+    "weight": 3.0,
+    "keywords": [
+      "openai", "anthropic", "claude", "gpt", "llm", "chatgpt",
+      "人工智能", "大模型", "机器学习", "深度学习", "神经网络",
+      "ai", "machine learning", "deep learning", "neural network"
+    ]
+  },
+  "business_funding": {
+    "weight": 2.5,
+    "keywords": [
+      "融资", "投资", "亿美元", "million", "billion", "收购", "ipo",
+      "startup", "独角兽", "估值", "valuation", "funding", "investment"
+    ]
+  },
+  "product_launch": {
+    "weight": 1.5,
+    "keywords": [
+      "发布", "上线", "推出", "新产品", "新版本",
+      "release", "launch", "update", "new version", "announced"
+    ]
+  },
+  "tech_concepts": {
+    "weight": 1.5,
+    "keywords": [
+      "agent", "智能体", "rag", "向量", "embedding",
+      "generative", "生成式", "multimodal", "多模态",
+      "具身智能", "embodied", "机器人", "robot"
+    ]
+  },
+  "impact_keywords": {
+    "weight": 2.0,
+    "keywords": [
+      "突破", "里程碑", "革命", "颠覆", "重大突破",
+      "breakthrough", "milestone", "revolutionary", "game changer"
+    ]
+  },
+  "negative_keywords": {
+    "weight": -2.0,
+    "keywords": [
+      "租房", "补贴", "医药", "医疗", "药品",
+      "减持", "分红", "股息", "real estate", "dividend"
+    ]
+  }
+}
